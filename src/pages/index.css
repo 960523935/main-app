@@ -1,0 +1,15 @@
+.layout {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.left {
+  flex: none;
+  width: 200px;
+  height: 100%;
+  background-color: #ddd;
+}
+.right {
+  flex: auto;
+  height: 100%;
+}
